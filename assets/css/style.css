@@ -445,6 +445,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: medium;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
