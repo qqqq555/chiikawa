@@ -603,17 +603,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #FF69B4;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #FF1493;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #FF69B4;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1076,7 +1076,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 10px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -1092,7 +1092,7 @@ section {
 }
 
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 0px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
