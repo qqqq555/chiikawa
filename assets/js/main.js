@@ -20,7 +20,17 @@
       return document.querySelector(el)
     }
   }
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader-wrapper");
+    document.body.classList.add('no-scroll');
+    setTimeout(function() {
+      loader.style.display = "none";
+      window.scrollTo(0, 0);
+      document.body.classList.remove('no-scroll'); // Hide loader after 2 seconds
+    }, 3000);
+  });
 
+  
   /**
    * Easy event listener function
    */
